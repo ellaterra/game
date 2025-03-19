@@ -1,0 +1,81 @@
+/* General Styles */
+body {
+    background-color: rgb(25, 25, 25);
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+/* Title Styling */
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+/* Move Icon Styling */
+.move-icon {
+    height: 50px;
+}
+
+/* Move Button Styling */
+.move-button {
+    background-color: transparent;
+    border: 3px solid white;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.move-button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: scale(1.1);
+}
+
+.move-button:focus {
+    outline: none;
+    box-shadow: 0 0 10px white;
+}
+
+/* Result and Score Styling */
+.result {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.score {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+/* Button Styling */
+button {
+    background-color: white;
+    color: black;
+    border: none;
+    font-size: 15px;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: lightgray;
+    transform: scale(1.05);
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 
